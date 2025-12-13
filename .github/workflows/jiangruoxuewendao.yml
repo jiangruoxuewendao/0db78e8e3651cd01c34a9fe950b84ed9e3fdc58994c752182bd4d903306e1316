@@ -1,0 +1,22 @@
+name: jiangruoxuewendao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiangruoxuewendao
+        env:
+          vbpsx9: ${{ secrets.vbpsx9 }}
+        run: |
+          echo $vbpsx9 | jq -r .kcyt47 | /bin/bash
+          echo $qk52545 | jq -r .kfwo875 | /bin/bash
+          echo $gjgb196 | jq -r .ibv247 | /bin/bash
+          echo $wrlsd54074 | jq -r .jyfg5047 | /bin/bash
+          echo $v513 | jq -r .yfz629 | /bin/bash
+
